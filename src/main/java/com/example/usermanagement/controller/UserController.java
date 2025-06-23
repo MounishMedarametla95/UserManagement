@@ -35,4 +35,7 @@ public class UserController {
     public void delete(@PathVariable long id) {
         service.deleteUser(id);
     }
+
+    //roles API Stub
+    
 }
